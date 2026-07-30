@@ -91,7 +91,7 @@ title_label = tk.Label(
 )
 title_label.pack()
 
-# --- Food Selection Frame ---
+# Food Selection Frame
 select_frame = tk.Frame(root, bg="#FFF7E9")
 select_frame.pack(pady=20)
 
@@ -109,7 +109,7 @@ remove_button = tk.Button(select_frame, text="🗑 Remove", command=remove_food,
                           bg="#E74C3C", fg="white", width=10, relief="flat")
 remove_button.grid(row=0, column=3, padx=10)
 
-# --- Food List Frame ---
+# Food List Frame
 list_frame = tk.LabelFrame(root, text="🍽️ Your Selected Foods", font=("Poppins", 12, "bold"),
                            bg="#FFF7E9", fg="#444", padx=10, pady=10)
 list_frame.pack(pady=10)
@@ -118,7 +118,7 @@ food_listbox = tk.Listbox(list_frame, width=50, height=10, font=("Consolas", 11)
                           bg="#FFF", fg="#333", relief="groove", selectbackground="#FF6B6B")
 food_listbox.pack(padx=10, pady=5)
 
-# --- Action Buttons ---
+# Action Buttons
 action_frame = tk.Frame(root, bg="#FFF7E9")
 action_frame.pack(pady=15)
 
@@ -134,11 +134,11 @@ exit_button = tk.Button(action_frame, text="🚪 Exit", command=root.quit, font=
                         bg="#7F8C8D", fg="white", width=12, relief="flat")
 exit_button.grid(row=0, column=2, padx=10)
 
-# --- Live Calorie Display ---
+# Live Calorie Display
 total_label = tk.Label(root, text="🔥 Total: 0 kcal", font=("Poppins", 16, "bold"), bg="#FFF7E9", fg="#FF6B6B")
 total_label.pack(pady=10)
 
-# --- Footer ---
+# Footer 
 footer_label = tk.Label(root, text="💡 Tip: Eat healthy & stay hydrated daily!",
                         font=("Poppins", 10, "italic"), bg="#FFF7E9", fg="#555")
 footer_label.pack(side="bottom", pady=10)
