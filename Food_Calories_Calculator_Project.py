@@ -23,7 +23,7 @@ food_data = {
 }
 
 
-# --- Functions ---
+# Functions 
 def add_food():
     """Add selected food to list"""
     food = food_combo.get()
@@ -70,14 +70,14 @@ def show_summary():
     messagebox.showinfo("Calorie Summary", summary)
 
 
-# --- GUI Window Setup ---
+# GUI Window Setup
 root = tk.Tk()
 root.title("🍔 Food Calorie Calculator 🍎")
 root.geometry("650x550")
 root.resizable(False, False)
 root.configure(bg="#FFF7E9")
 
-# --- Title Section ---
+# Title Section
 title_frame = tk.Frame(root, bg="#FF6B6B")
 title_frame.pack(fill="x")
 
