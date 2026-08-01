@@ -3,7 +3,7 @@
 # All Rights Reserved To:
 # Name: [Aashutosh]
 # UID: [25MCA20107]
-# Section: [25MCA2-B]
+# Section: [25MCA-1A]
 # ---------------------------------------------------
 
 import tkinter as tk
