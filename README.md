@@ -1,1 +1,1 @@
-# Food-Calorie-Calculator---Python-Project
+# Food-Calorie-Calculator---Python-Mini-Project
