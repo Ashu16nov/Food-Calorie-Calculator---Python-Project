@@ -22,7 +22,6 @@ food_data = {
     "Lassi": 250, "Milkshake": 300, "Ice Cream": 207, "Salad": 50, "Water": 0
 }
 
-
 # Functions 
 def add_food():
     """Add selected food to list"""
@@ -43,19 +42,16 @@ def remove_food():
     else:
         messagebox.showwarning("Select Item", "Please select a food item to remove!")
 
-
 def clear_all():
     """Clear all selected items"""
     food_listbox.delete(0, tk.END)
     update_total()
-
 
 def update_total():
     """Recalculate total calories"""
     foods = food_listbox.get(0, tk.END)
     total = sum(food_data.get(food, 0) for food in foods)
     total_label.config(text=f"🔥 Total: {total} kcal")
-
 
 def show_summary():
     """Show detailed calorie summary"""
@@ -68,7 +64,6 @@ def show_summary():
     total = sum(food_data.get(f, 0) for f in foods)
     summary += f"\n\nTotal Calories: {total} kcal"
     messagebox.showinfo("Calorie Summary", summary)
-
 
 # GUI Window Setup
 root = tk.Tk()
