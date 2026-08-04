@@ -86,7 +86,7 @@ title_label = tk.Label(
 )
 title_label.pack()
 
-# Food Selection Frame
+# Food Selection Frames
 select_frame = tk.Frame(root, bg="#FFF7E9")
 select_frame.pack(pady=20)
 
