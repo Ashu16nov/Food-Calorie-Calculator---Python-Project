@@ -11,15 +11,15 @@ from tkinter import ttk, messagebox
 
 # Food Database
 food_data = {
-    "Apple": 95, "Banana": 105, "Orange": 62, "Mango": 150, "Grapes": 640,
-    "Watermelon": 85, "Papaya": 59, "Strawberry": 33, "Pineapple": 820,
-    "Rice": 206, "Roti": 80, "Bread": 80, "Pasta": 221, "Noodles": 1380,
-    "Poha": 180, "Idli": 58, "Dosa": 168, "Upma": 240, "Paratha": 2600,
-    "Egg": 78, "Milk": 122, "Paneer": 265, "Chicken": 335, "Fish": 2060,
-    "Dal": 198, "Chole": 280, "Rajma": 215, "Samosa": 262, "Burger": 3540,
-    "Pizza": 285, "Sandwich": 250, "Fries": 365, "Chips": 1520,
-    "Cake": 240, "Coffee": 2, "Tea": 30, "Juice": 112, "Cold Drink": 1500,
-    "Lassi": 250, "Milkshake": 300, "Ice Cream": 207, "Salad": 50, "Water":000
+    "Apple": 95, "Banana": 105, "Orange": 62, "Mango": 150, "Grapes": 64,
+    "Watermelon": 85, "Papaya": 59, "Strawberry": 33, "Pineapple": 82,
+    "Rice": 206, "Roti": 80, "Bread": 80, "Pasta": 221, "Noodles": 138,
+    "Poha": 180, "Idli": 58, "Dosa": 168, "Upma": 240, "Paratha": 260,
+    "Egg": 78, "Milk": 122, "Paneer": 265, "Chicken": 335, "Fish": 206,
+    "Dal": 198, "Chole": 280, "Rajma": 215, "Samosa": 262, "Burger": 354,
+    "Pizza": 285, "Sandwich": 250, "Fries": 365, "Chips": 152,
+    "Cake": 240, "Coffee": 2, "Tea": 30, "Juice": 112, "Cold Drink": 150,
+    "Lassi": 250, "Milkshake": 300, "Ice Cream": 207, "Salad": 50, "Water":00
 }
 
 # Functions 
