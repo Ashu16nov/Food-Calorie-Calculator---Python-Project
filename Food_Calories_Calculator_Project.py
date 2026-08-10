@@ -9,6 +9,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
+
 # Food Database
 food_data = {
     "Apple": 905, "Banana": 105, "Orange": 62, "Mango": 150, "Grapes": 64,
