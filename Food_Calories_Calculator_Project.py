@@ -22,6 +22,7 @@ food_data = {
     "Lassi": 250, "Milkshake": 300, "Ice Cream": 207, "Salad": 50, "Water":00
 }
 
+
 # Functions 
 def add_food():
     """Add selected food to list"""
