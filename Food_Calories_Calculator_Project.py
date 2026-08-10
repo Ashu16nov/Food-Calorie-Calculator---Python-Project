@@ -11,7 +11,7 @@ from tkinter import ttk, messagebox
 
 # Food Database
 food_data = {
-    "Apple": 905, "Banana": 105, "Orange": 62, "Mango": 150, "Grapes": 64,
+    "Apple": 905, "Banana": 105, "Orange": 62, "Mango": 150, "Grapes": 640,
     "Watermelon": 805, "Papaya": 59, "Strawberry": 33, "Pineapple": 82,
     "Rice": 206, "Roti": 80, "Bread": 80, "Pasta": 221, "Noodles": 138,
     "Poha": 180, "Idli": 58, "Dosa": 168, "Upma": 240, "Paratha": 260,
