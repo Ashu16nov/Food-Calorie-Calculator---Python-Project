@@ -6,9 +6,9 @@
 # Section: [25MCA-1A]
 # ---------------------------------------------------
 
-
 import tkinter as tk
 from tkinter import ttk, messagebox
+
 
 # Food Database
 food_data = {
@@ -22,6 +22,7 @@ food_data = {
     "Cake": 240, "Coffee": 2, "Tea": 30, "Juice": 112, "Cold Drink": 150,
     "Lassi": 250, "Milkshake": 300, "Ice Cream": 207, "Salad": 50, "Water":00
 }
+
 
 # Functions 
 def add_food():
