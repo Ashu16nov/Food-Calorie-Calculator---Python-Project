@@ -9,7 +9,6 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 
-
 # Food Database
 food_data = {
     "Apple": 905, "Banana": 105, "Orange": 62, "Mango": 150, "Grapes": 64,
@@ -23,7 +22,6 @@ food_data = {
     "Lassi": 250, "Milkshake": 300, "Ice Cream": 207, "Salad": 50, "Water":00
 }
 
-
 # Functions 
 def add_food():
     """Add selected food to list"""
@@ -33,7 +31,6 @@ def add_food():
         return
     food_listbox.insert(tk.END, food)
     update_total()
-
 
 def remove_food():
     """Remove selected food from list"""
